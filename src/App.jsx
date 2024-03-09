@@ -5,26 +5,7 @@ import Contacto from "./Pages/Contacto.jsx";
 import Error from "./Pages/Error.jsx";
 import React from "react";
 //..........
-export const router = createBrowserRouter([
-  {
-    path:"/",
-    element: <Home/>
-  },
-  {
-    path:"/Obras",
-    element: <Obras/>
-  },
-  {
-    path:"/Contacto",
-    element: <Contacto/>
-  },
-  {
-    path:"/*",
-    element: <Error/>
-  },
 
-])
-//...............
 function App() {
   
   return (
